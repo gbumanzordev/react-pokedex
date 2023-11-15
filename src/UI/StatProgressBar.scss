@@ -1,0 +1,32 @@
+.stat {
+  font-size: 12px;
+  border-radius: 8px;
+  text-align: center;
+  width: 80%;
+  display: flex;
+  align-items: center;
+
+  span {
+    width: 32px;
+  }
+}
+
+.progress {
+  margin-left: 8px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #ccc;
+  height: 8px;
+}
+
+.progress-indicator {
+  border-radius: 8px;
+  height: 100%;
+  &.red {
+    background-color: rgb(251, 110, 108);
+  }
+
+  &.green {
+    background-color: rgb(122, 200, 81);
+  }
+}

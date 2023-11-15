@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    margin-left: 24px;
+    padding: 8px 0;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 64px;
+    color: indianred;
+  }
+}
